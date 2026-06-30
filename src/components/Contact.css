@@ -1,0 +1,76 @@
+.contact {
+  padding: 90px 24px 100px;
+  text-align: center;
+}
+
+.contact__heading {
+  font-family: "Playfair Display", "Noto Serif KR", serif;
+  font-size: 44px;
+  color: #233326;
+  margin: 0 0 60px;
+}
+
+.contact__row {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.contact__info {
+  text-align: left;
+}
+
+.contact__line {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #2f4538;
+}
+
+.contact__label {
+  font-weight: 700;
+  min-width: 56px;
+}
+
+.contact__value {
+  color: #3c4a3f;
+}
+
+.contact__resume-btn {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #2f4538;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  line-height: 1.6;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(47, 69, 56, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.contact__resume-btn:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .contact__heading {
+    font-size: 32px;
+  }
+  .contact__row {
+    justify-content: center;
+    text-align: center;
+  }
+  .contact__info {
+    text-align: center;
+  }
+  .contact__line {
+    justify-content: center;
+  }
+}

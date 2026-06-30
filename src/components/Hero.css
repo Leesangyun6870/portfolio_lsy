@@ -1,0 +1,31 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 24px 80px;
+  text-align: center;
+}
+
+.hero__tree {
+  width: 280px;
+  height: auto;
+  color: #2f4538;
+  margin-bottom: 18px;
+}
+
+.hero__title {
+  font-family: "Playfair Display", "Noto Serif KR", serif;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  color: #2f4538;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .hero__tree {
+    width: 200px;
+  }
+  .hero__title {
+    font-size: 24px;
+  }
+}

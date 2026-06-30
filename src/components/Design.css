@@ -1,0 +1,131 @@
+.design {
+  background: #eef2ea;
+  padding: 80px 24px 100px;
+}
+
+.design__inner {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.design__heading {
+  font-family: "Poppins", "Noto Sans KR", sans-serif;
+  font-size: 34px;
+  color: #2f4538;
+  margin: 0 0 32px;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.design-card {
+  background: #fff;
+  border-radius: 14px;
+  /* overflow: hidden; */
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid #e6e9e3;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.design-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(47, 69, 56, 0.12);
+}
+
+.design-card__thumb {
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 13px;
+  text-align: center;
+  padding: 12px;
+}
+
+.design-card__body {
+  padding: 12px 14px 16px;
+}
+
+.design-card__category {
+  font-size: 11px;
+  color: #8a9489;
+  margin-bottom: 4px;
+}
+
+.design-card__name {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #233326;
+  margin-bottom: 8px;
+}
+
+.design-card__tags {
+  display: flex;
+  gap: 6px;
+}
+
+.design-card__tag-dot {
+  width: 17px;
+  height: 17px;
+  border-radius: 5px;
+  background: #2f4538;
+  color: #fff;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.design__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #d7ddd3;
+  margin-top: 32px;
+  padding-top: 18px;
+}
+
+.design__more {
+  background: none;
+  border: none;
+  color: #4a564c;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.design__pager {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.design__page-count {
+  font-size: 13px;
+  color: #4a564c;
+}
+
+.design__pager-btn {
+  background: #2f4538;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.design__pager-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@media (max-width: 800px) {
+  .design-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,127 @@
+.project {
+  padding: 80px 24px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.project__heading {
+  font-family: "Poppins", "Noto Sans KR", sans-serif;
+  font-size: 34px;
+  color: #2f4538;
+  margin: 0 0 32px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e6e9e3;
+  border-radius: 14px;
+  /* overflow: hidden; */
+  cursor: pointer;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(47, 69, 56, 0.12);
+}
+
+.card__thumb {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6f7c70;
+  font-size: 14px;
+  padding: 16px;
+  text-align: center;
+}
+
+.card__body {
+  padding: 14px 16px 18px;
+}
+
+.card__category {
+  font-size: 11px;
+  color: #8a9489;
+  margin-bottom: 6px;
+}
+
+.card__name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #233326;
+  margin-bottom: 10px;
+}
+
+.card__tags {
+  display: flex;
+  gap: 6px;
+}
+
+.card__tag-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  background: #2f4538;
+  color: #fff;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e6e9e3;
+  margin-top: 32px;
+  padding-top: 18px;
+}
+
+.project__more {
+  background: none;
+  border: none;
+  color: #4a564c;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.project__pager {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.project__page-count {
+  font-size: 13px;
+  color: #4a564c;
+}
+
+.project__pager-btn {
+  background: #2f4538;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.project__pager-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@media (max-width: 800px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
