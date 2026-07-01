@@ -2,6 +2,7 @@
 const projectData = [
   {
     id: "proj-01",
+    img:"/images/shem_banner.png",
     thumbnailColor: "#fbf6ee",
     badge: "shem 프로젝트",
     title: "당신의 마음에 주님께서 함께하십니다",
@@ -24,12 +25,13 @@ const projectData = [
   },
   {
     id: "proj-02",
+    img:"/images/kosafmypage.png",
     thumbnailColor: "#e7ede4",
     badge: null,
     title: "프로젝트 02",
     subtitle: null,
     category: "기획 · 디자인 · 코딩 2026",
-    name: "shem 프로젝트",
+    name: "한국장학제단 홈페이지 리디자인",
     tools: ["Figma", "Notion", "Github", "Code"],
     detail: {
       summary:
@@ -46,9 +48,10 @@ const projectData = [
   },
   {
     id: "proj-03",
+    img:"/images/Shef.PNG",
     thumbnailColor: "#e7ede4",
     badge: null,
-    title: "프로젝트 03",
+    title: "레스토랑 코딩",
     subtitle: null,
     category: "기획 · 디자인 · 코딩 2026",
     name: "shem 프로젝트",

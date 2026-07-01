@@ -11,7 +11,7 @@ const INFO_ROWS = [
   },
   {
     label: "경력",
-    value: ["카페발레오 · 연구보조", "SK실트론 · 장비유지보수"],
+    value: ["카펙발레오 · 연구보조", "SK실트론 · 장비유지보수"],
   },
   {
     label: "교육",
@@ -43,8 +43,8 @@ const TOOLS = [
   { name: "After Effects", icon: "/images/Icon/08.png" },
   { name: "Office", icon: "/images/Icon/09.png" },
   { name: "JavaScript", icon: "/images/Icon/10.png" },
-  { name: "Jemini", icon: "/images/Icon/11.png" },
-  { name: "Claud", icon: "/images/Icon/12.png" },
+  { name: "Gemini", icon: "/images/Icon/11.png" },
+  { name: "Claude", icon: "/images/Icon/12.png" },
   { name: "Chatgpt", icon: "/images/Icon/13.png" },
 ];
 

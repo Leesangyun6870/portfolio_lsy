@@ -1,6 +1,7 @@
 .contact {
   padding: 90px 24px 100px;
   text-align: center;
+  
 }
 
 .contact__heading {
@@ -8,6 +9,7 @@
   font-size: 44px;
   color: #233326;
   margin: 0 0 60px;
+  text-shadow: 0 11px 7px rgba(0, 0, 0, 0.1);
 }
 
 .contact__row {
@@ -39,6 +41,7 @@
 
 .contact__value {
   color: #3c4a3f;
+  font-family: "Noto Serif", serif;
 }
 
 .contact__resume-btn {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Project.css";
 import Modal from "./Modal";
 import projectData from "../data/projectData";
+import toolIcons from "../data/toolIcons";
 
 const TOTAL_PAGES = 5; // 더미: 전체 페이지 수
 
@@ -24,16 +25,19 @@ function Project() {
               className="card__thumb"
               style={{ background: item.thumbnailColor }}
             >
-              {item.title}
+              <img src={item.img} alt={item.title} />
             </div>
             <div className="card__body">
               <div className="card__category">{item.category}</div>
               <div className="card__name">{item.name}</div>
               <div className="card__tags">
                 {item.tools.map((tool, i) => (
-                  <span className="card__tag-dot" key={`${item.id}-${i}`}>
-                    {tool[0]}
-                  </span>
+                  <img
+                    key={`${item.id}-${i}`} // ✅ key 추가
+                    src={toolIcons[tool] || "/icons/default.png"}
+                    alt={tool}
+                    className="card__tag-icon"
+                  />
                 ))}
               </div>
             </div>

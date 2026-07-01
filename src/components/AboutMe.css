@@ -32,12 +32,12 @@
 }
 
 .about__left {
-  border-left: 3px solid #2f4538;
+  border-left: 3px solid rgba(45, 45, 45, 0.5);
   padding-left: 20px;
 }
 
 .about__intro {
-  font-size: 19px;
+  font-size: 27px;
   font-weight: 600;
   color: #233326;
   line-height: 1.5;
@@ -50,6 +50,7 @@
   line-height: 1.7;
   margin-bottom: 14px;
   font-family: "Noto Serif", serif;
+  font-weight: 600;
 }
 
 .about__venn {
@@ -61,15 +62,15 @@
 
 .venn-circle {
   position: absolute;
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 1px solid #9fb09a;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
   color: #5a6a5c;
   padding: 10px;
   background: rgba(255, 255, 255, 0.3);
@@ -96,10 +97,14 @@
   gap: 18px;
 }
 
+.about__venn {
+  font-family: "Noto Serif", serif;
+}
+
 .info-row {
   display: grid;
   grid-template-columns: 70px 1fr;
-  gap: 16px;
+  gap: 32px;
   border-bottom: 1px solid #d7ddd3;
   padding-bottom: 14px;
 }
@@ -107,7 +112,7 @@
 .info-row__label {
   font-weight: 700;
   color: #2f4538;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .info-row__value {
@@ -119,20 +124,19 @@
 .tool-icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  row-gap: 35px;
+  column-gap: 30px;
 }
 
 .tool-icon {
   width: 34px;
   height: 34px;
   border-radius: 8px;
-  background: #2f4538;
+  /* background: #2f4538; */
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 11px;
-  font-weight: 700;
 }
 
 @media (max-width: 800px) {

@@ -2,6 +2,7 @@
 const designData = [
   {
     id: "design-01",
+    img: "/images/minari.png",
     thumbnailColor: "#f4ede0",
     badge: "초록마을",
     title: "무농약이상 미나리 (300g)",
@@ -23,9 +24,10 @@ const designData = [
   },
   {
     id: "design-02",
+    img: "/images/samchuly.png",
     thumbnailColor: "#76886f",
     badge: null,
-    title: "디자인 02",
+    title: "삼천리 자전거 브랜딩",
     category: "편집 디자인 2026",
     name: "디자인 02",
     tools: ["Figma", "Pinterest"],
@@ -44,9 +46,10 @@ const designData = [
   },
   {
     id: "design-03",
+    img: "/images/mint.PNG",
     thumbnailColor: "#76886f",
     badge: null,
-    title: "디자인 03",
+    title: "페퍼민트 랜딩페이지",
     category: "편집 디자인 2026",
     name: "디자인 03",
     tools: ["Figma", "Pinterest"],
@@ -65,9 +68,10 @@ const designData = [
   },
   {
     id: "design-04",
+    img: "/images/bookpid.png",
     thumbnailColor: "#76886f",
     badge: null,
-    title: "디자인 04",
+    title: "책 pid 디자인",
     category: "편집 디자인 2026",
     name: "디자인 04",
     tools: ["Figma", "Pinterest"],
@@ -76,6 +80,72 @@ const designData = [
         "SNS 카드뉴스 시리즈 디자인입니다. 정보 전달력을 높이기 위해 일관된 그리드와 아이콘 세트를 활용했습니다.",
       role: "카드뉴스 디자인",
       period: "2026.04",
+      stack: ["Figma"],
+      points: [
+        "공통 그리드 시스템 설계",
+        "아이콘 세트 제작 및 적용",
+        "총 6장 시리즈 콘텐츠 구성",
+      ],
+    },
+  },
+  {
+    id: "design-05",
+    img: "/images/wellage.png",
+    thumbnailColor: "#76886f",
+    badge: null,
+    title: "화장품 sns 피드",
+    category: "편집 디자인 2026",
+    name: "디자인 05",
+    tools: ["Figma", "Pinterest"],
+    detail: {
+      summary:
+        "SNS 카드뉴스 시리즈 디자인입니다. 정보 전달력을 높이기 위해 일관된 그리드와 아이콘 세트를 활용했습니다.",
+      role: "카드뉴스 디자인",
+      period: "2026.05",
+      stack: ["Figma"],
+      points: [
+        "공통 그리드 시스템 설계",
+        "아이콘 세트 제작 및 적용",
+        "총 6장 시리즈 콘텐츠 구성",
+      ],
+    },
+  },
+  {
+    id: "design-05",
+    img: "/images/Shopping.png",
+    thumbnailColor: "#76886f",
+    badge: null,
+    title: "shopping 앱디자인",
+    category: "편집 디자인 2026",
+    name: "디자인 05",
+    tools: ["Figma", "Pinterest"],
+    detail: {
+      summary:
+        "SNS 카드뉴스 시리즈 디자인입니다. 정보 전달력을 높이기 위해 일관된 그리드와 아이콘 세트를 활용했습니다.",
+      role: "카드뉴스 디자인",
+      period: "2026.05",
+      stack: ["Figma"],
+      points: [
+        "공통 그리드 시스템 설계",
+        "아이콘 세트 제작 및 적용",
+        "총 6장 시리즈 콘텐츠 구성",
+      ],
+    },
+  },
+{
+    id: "design-08",
+    img: "/images/cafe24.png",
+    thumbnailColor: "#76886f",
+    badge: null,
+    title: "카페24 쇼핑몰",
+    category: "편집 디자인 2026",
+    name: "디자인 05",
+    tools: ["Figma", "Pinterest"],
+    detail: {
+      summary:
+        "SNS 카드뉴스 시리즈 디자인입니다. 정보 전달력을 높이기 위해 일관된 그리드와 아이콘 세트를 활용했습니다.",
+      role: "카드뉴스 디자인",
+      period: "2026.05",
       stack: ["Figma"],
       points: [
         "공통 그리드 시스템 설계",

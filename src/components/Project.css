@@ -24,7 +24,9 @@
   /* overflow: hidden; */
   cursor: pointer;
   text-align: left;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .card:hover {
@@ -42,7 +44,11 @@
   padding: 16px;
   text-align: center;
 }
-
+.card__thumb img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
 .card__body {
   padding: 14px 16px 18px;
 }
@@ -58,13 +64,16 @@
   font-weight: 700;
   color: #233326;
   margin-bottom: 10px;
+  font-family: "Noto Serif", serif;
 }
 
 .card__tags {
   display: flex;
   gap: 6px;
 }
-
+ .card__tag-icon{
+  width: 24px;
+ }
 .card__tag-dot {
   width: 18px;
   height: 18px;

@@ -182,7 +182,9 @@ function Hero() {
 
       <div className="hero-content" ref={contentRef}>
         <img src="/images/hero.png" alt="" ref={imgRef} />
-        <h1 ref={titleRef}>Shine Together</h1>
+        <h1 ref={titleRef} style={{ fontFamily: "'Noto Serif', serif" }}>
+          Shine Together
+        </h1>
       </div>
     </section>
   );
