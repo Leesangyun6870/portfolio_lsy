@@ -32,7 +32,21 @@ const INFO_ROWS = [
   },
 ];
 
-const TOOLS = ["Fi", "N", "Git", "H5", "C3", "Ps", "Ai", "Ae", "Of", "JS", "✦", "✺"];
+const TOOLS = [
+  { name: "Figma", icon: "/images/Icon/01.png" },
+  { name: "Notion", icon: "/images/Icon/02.png" },
+  { name: "Git", icon: "/images/Icon/03.png" },
+  { name: "HTML5", icon: "/images/Icon/04.png" },
+  { name: "CSS3", icon: "/images/Icon/05.png" },
+  { name: "Photoshop", icon: "/images/Icon/06.png" },
+  { name: "Illustrator", icon: "/images/Icon/07.png" },
+  { name: "After Effects", icon: "/images/Icon/08.png" },
+  { name: "Office", icon: "/images/Icon/09.png" },
+  { name: "JavaScript", icon: "/images/Icon/10.png" },
+  { name: "Jemini", icon: "/images/Icon/11.png" },
+  { name: "Claud", icon: "/images/Icon/12.png" },
+  { name: "Chatgpt", icon: "/images/Icon/13.png" },
+];
 
 function AboutMe() {
   return (
@@ -87,9 +101,9 @@ function AboutMe() {
             <div className="info-row__label">사용도구</div>
             <div className="info-row__value">
               <div className="tool-icons">
-                {TOOLS.map((t, i) => (
-                  <span className="tool-icon" key={`${t}-${i}`}>
-                    {t}
+                {TOOLS.map((t) => (
+                  <span className="tool-icon" key={t.name} title={t.name}>
+                    <img src={t.icon} alt={t.name} />
                   </span>
                 ))}
               </div>

@@ -1,6 +1,18 @@
 .about {
-  background: #eef2ea;
-  padding: 70px 24px;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  padding: 100px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 2;
+
+  transform-origin: center;
+  transform-origin: center bottom;
+  will-change: transform, opacity;
 }
 
 .about__inner {
@@ -37,6 +49,7 @@
   color: #4a564c;
   line-height: 1.7;
   margin-bottom: 14px;
+  font-family: "Noto Serif", serif;
 }
 
 .about__venn {

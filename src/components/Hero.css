@@ -1,31 +1,102 @@
 .hero {
+  position: relative;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 24px 80px;
+  justify-content: center;
+  overflow: hidden;
   text-align: center;
 }
 
-.hero__tree {
-  width: 280px;
-  height: auto;
-  color: #2f4538;
-  margin-bottom: 18px;
+.hero-content {
+  position: relative;
+  z-index: 2;
+  will-change: transform, opacity;
 }
 
-.hero__title {
-  font-family: "Playfair Display", "Noto Serif KR", serif;
-  font-size: 32px;
-  letter-spacing: 0.04em;
-  color: #2f4538;
-  margin: 0;
+.hero-content img {
+  max-width: 800px;
+  width: 90%;
+  /* will-change: transform, opacity; */
 }
 
-@media (max-width: 600px) {
-  .hero__tree {
-    width: 200px;
-  }
-  .hero__title {
-    font-size: 24px;
-  }
+.hero-content h1 {
+  margin-top: 24px;
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.hero-decor {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.hero-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(50px);
+  opacity: 0;
+}
+
+.hero-blob--1 {
+  width: 320px;
+  height: 320px;
+  top: -60px;
+  left: -60px;
+  background: radial-gradient(circle, #ffe9b8 0%, transparent 90%);
+}
+
+.hero-blob--2 {
+  width: 260px;
+  height: 260px;
+  bottom: -40px;
+  right: -40px;
+  background: radial-gradient(circle, #cfe8ff 0%, transparent 90%);
+}
+
+.hero-blob--3 {
+  width: 200px;
+  height: 200px;
+  top: 40%;
+  right: 10%;
+  background: radial-gradient(circle, #ffd6e8 0%, transparent 90%);
+}
+
+.hero-float {
+  position: absolute;
+  fill: none;
+  stroke: #d8c9a3;
+  stroke-width: 2;
+  opacity: 0;
+}
+
+.hero-float--1 {
+  width: 26px;
+  top: 15%;
+  left: 12%;
+}
+.hero-float--2 {
+  width: 20px;
+  top: 70%;
+  left: 18%;
+}
+.hero-float--3 {
+  width: 30px;
+  top: 20%;
+  right: 15%;
+}
+.hero-float--4 {
+  width: 16px;
+  top: 55%;
+  right: 8%;
+}
+.hero-float--5 {
+  width: 22px;
+  top: 80%;
+  right: 25%;
 }

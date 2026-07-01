@@ -18,7 +18,7 @@
   background: none;
   border: none;
   font-family: "Pretendard", "Noto Sans KR", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   color: #3c4a3f;
   cursor: pointer;
   padding: 4px 2px;
@@ -29,7 +29,7 @@
 .header__link:hover,
 .header__link--active {
   color: #1f3325;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .header__link::after {
