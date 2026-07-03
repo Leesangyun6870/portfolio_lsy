@@ -14,7 +14,7 @@ body.modal-open {
 
 .modal-card {
   background: #ffffff;
-  width: 100%;
+  width: 90%;
   max-width: 800px;
   /* max-height: 95vh; */
   overflow-y: auto;

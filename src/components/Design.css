@@ -40,6 +40,7 @@
 }
 
 .design-card__thumb {
+  position: relative;
   height: 300px;
   display: flex;
   align-items: center;
@@ -50,6 +51,9 @@
   overflow: hidden;
 }
 .design-card__thumb img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   display: block;
   object-fit: cover;
