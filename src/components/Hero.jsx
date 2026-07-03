@@ -157,36 +157,38 @@ function Hero() {
   }, []);
 
   return (
-    <section className="hero" ref={heroRef}>
-      <div className="hero-decor" ref={decorRef}>
-        <div className="hero-blob hero-blob--1"></div>
-        <div className="hero-blob hero-blob--2"></div>
-        <div className="hero-blob hero-blob--3"></div>
+    <>
+      <section className="hero" ref={heroRef}>
+        <div className="hero-decor" ref={decorRef}>
+          <div className="hero-blob hero-blob--1"></div>
+          <div className="hero-blob hero-blob--2"></div>
+          <div className="hero-blob hero-blob--3"></div>
 
-        <svg className="hero-float hero-float--1" viewBox="0 0 24 24">
-          <circle cx="12" cy="12" r="10" />
-        </svg>
-        <svg className="hero-float hero-float--2" viewBox="0 0 24 24">
-          <rect x="2" y="2" width="20" height="20" rx="6" />
-        </svg>
-        <svg className="hero-float hero-float--3" viewBox="0 0 24 24">
-          <polygon points="12,2 22,20 2,20" />
-        </svg>
-        <svg className="hero-float hero-float--4" viewBox="0 0 24 24">
-          <circle cx="12" cy="12" r="10" />
-        </svg>
-        <svg className="hero-float hero-float--5" viewBox="0 0 24 24">
-          <rect x="2" y="2" width="20" height="20" rx="6" />
-        </svg>
-      </div>
+          <svg className="hero-float hero-float--1" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" />
+          </svg>
+          <svg className="hero-float hero-float--2" viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="6" />
+          </svg>
+          <svg className="hero-float hero-float--3" viewBox="0 0 24 24">
+            <polygon points="12,2 22,20 2,20" />
+          </svg>
+          <svg className="hero-float hero-float--4" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" />
+          </svg>
+          <svg className="hero-float hero-float--5" viewBox="0 0 24 24">
+            <rect x="2" y="2" width="20" height="20" rx="6" />
+          </svg>
+        </div>
 
-      <div className="hero-content" ref={contentRef}>
-        <img src="/images/hero.png" alt="" ref={imgRef} />
-        <h1 ref={titleRef} style={{ fontFamily: "'Noto Serif', serif" }}>
-          Shine Together
-        </h1>
-      </div>
-    </section>
+        <div className="hero-content" ref={contentRef}>
+          <img src="/images/hero.png" alt="" ref={imgRef} />
+          <h1 ref={titleRef} style={{ fontFamily: "'Noto Serif', serif" }}>
+            Shine Together
+          </h1>
+        </div>
+      </section>{" "}
+    </>
   );
 }
 

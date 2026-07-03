@@ -1,4 +1,6 @@
 .header {
+
+  z-index: 9999999;
   display: flex;
   justify-content: center;
   padding: 28px 24px 12px;
@@ -18,7 +20,7 @@
   background: none;
   border: none;
   font-family: "Pretendard", "Noto Sans KR", sans-serif;
-  font-size: 24px;
+  font-size: 32px;
   color: #3c4a3f;
   cursor: pointer;
   padding: 4px 2px;

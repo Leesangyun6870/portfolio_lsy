@@ -16,7 +16,7 @@ function App() {
       <AboutMe />
       <Project />
       <Design />
-      <AiWorkflow/>
+      <AiWorkflow />
       <Contact />
     </div>
   );
