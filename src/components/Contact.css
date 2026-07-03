@@ -1,7 +1,6 @@
 .contact {
   padding: 90px 24px 100px;
   text-align: center;
-  
 }
 
 .contact__heading {
@@ -51,11 +50,16 @@
   background: #2f4538;
   color: #fff;
   border: none;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.6;
   cursor: pointer;
   box-shadow: 0 10px 24px rgba(47, 69, 56, 0.25);
   transition: transform 0.2s ease;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
 }
 
 .contact__resume-btn:hover {
