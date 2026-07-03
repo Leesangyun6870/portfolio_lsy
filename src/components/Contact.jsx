@@ -23,11 +23,15 @@ function Contact() {
           </div>
         </div>
 
-        <button className="contact__resume-btn" onClick={handleDownload}>
+        <a
+          href="/images/이상윤_사람인이력서.pdf"
+          className="contact__resume-btn"
+          download
+        >
           이력서
           <br />
           PDF 다운로드
-        </button>
+        </a>
       </div>
     </section>
   );

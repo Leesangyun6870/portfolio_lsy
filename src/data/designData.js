@@ -8,13 +8,13 @@ const designData = [
     title: "무농약이상 미나리 (300g)",
     category: "편집 · 패키지 디자인 2026",
     name: "초록마을 미나리",
-    tools: ["Figma", "Pinterest"],
+    tools: ["Figma", "Photoshop"],
     detail: {
       summary:
         "친환경 농산물 브랜드의 패키지 라벨 디자인입니다. 신선함과 신뢰감을 동시에 전달하기 위해 손글씨 느낌의 로고와 채도 낮은 그린 톤을 사용했습니다.",
       role: "패키지 디자인, 로고 디자인",
       period: "2026.01",
-      stack: ["Figma", "Illustrator"],
+      stack: ["Figma", "Photoshop"],
       points: [
         "친환경 인증 정보를 한눈에 보이도록 레이아웃 구성",
         "손글씨 로고타입으로 신뢰감 있는 브랜드 톤 구축",
@@ -31,7 +31,7 @@ const designData = [
     title: "페퍼민트 랜딩페이지",
     category: "편집 디자인 2026",
     name: "디자인 03",
-    tools: ["Figma", "Pinterest"],
+    tools: ["Figma", "Photoshop", "Illustrator"],
     detail: {
       summary:
         "포스터형 비주얼 작업입니다. 텍스트와 이미지의 여백을 활용해 차분한 인상을 주는 데 중점을 두었습니다.",

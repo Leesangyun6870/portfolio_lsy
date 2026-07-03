@@ -64,7 +64,7 @@ function Design() {
                   <div className="design-card__tags">
                     {item.tools.map((tool, i) => (
                       <img
-                        key={i}
+                        key={`${item.id}-${i}`}
                         src={toolIcons[tool] || "/icons/default.png"}
                         alt={tool}
                         className="card__tag-icon"
