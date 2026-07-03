@@ -2,7 +2,7 @@
 const projectData = [
   {
     id: "proj-01",
-    img:"/images/shem_banner.png",
+    img: "/images/Project_img/shem_banner.png",
     thumbnailColor: "#fbf6ee",
     badge: "shem 프로젝트",
     title: "당신의 마음에 주님께서 함께하십니다",
@@ -25,7 +25,7 @@ const projectData = [
   },
   {
     id: "proj-02",
-    img:"/images/kosafmypage.png",
+    img: "/images/Project_img/kosafmypage.png",
     thumbnailColor: "#e7ede4",
     badge: null,
     title: "프로젝트 02",
@@ -48,7 +48,7 @@ const projectData = [
   },
   {
     id: "proj-03",
-    img:"/images/Shef.PNG",
+    img: "/images/Project_img/Shef.PNG",
     thumbnailColor: "#e7ede4",
     badge: null,
     title: "레스토랑 코딩",
@@ -60,6 +60,28 @@ const projectData = [
       summary:
         "산업 현장 경험을 살린 설비 점검 기록 도구 기획 프로젝트입니다. 현장 작업자가 빠르게 입력하고, 관리자는 한눈에 현황을 파악할 수 있도록 화면을 설계했습니다.",
       role: "기획, 프로토타이핑",
+      period: "2026.03 - 2026.04",
+      stack: ["Figma", "Github"],
+      points: [
+        "현장 작업자 입력 플로우 단순화 (3탭 이내 완료)",
+        "관리자용 대시보드 와이어프레임 설계",
+        "체크리스트 기반 점검 항목 데이터 모델링",
+      ],
+    },
+  },
+  {
+    id: "proj-04",
+    img: "/images/Project_img/Tong.png",
+    thumbnailColor: "#e7ede4",
+    badge: null,
+    title: "도시락통",
+    subtitle: null,
+    category: "클론코딩",
+    name: "도시락통 클론코딩",
+    tools: ["Notion", "Github", "Code"],
+    detail: {
+      summary: " OO ",
+      role: "OO",
       period: "2026.03 - 2026.04",
       stack: ["Figma", "Github"],
       points: [

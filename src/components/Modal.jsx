@@ -15,6 +15,17 @@ function Modal({ item, onClose }) {
       document.removeEventListener("keydown", handleKey);
     };
   }, [onClose]);
+  useEffect(() => {
+    if (item) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [item]);
 
   if (!item) return null;
 
@@ -34,11 +45,8 @@ function Modal({ item, onClose }) {
           ✕
         </button>
 
-        <div
-          className="modal-card__thumb"
-          style={{ background: item.thumbnailColor || "#cdd6c8" }}
-        >
-          {item.badge || item.title}
+        <div className="modal-card__thumb">
+          <img src={item.img} alt={item.title} />
         </div>
 
         <div className="modal-card__category">{item.category}</div>

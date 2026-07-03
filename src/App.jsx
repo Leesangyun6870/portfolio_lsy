@@ -6,6 +6,7 @@ import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
 import Design from "./components/Design";
 import Contact from "./components/Contact";
+import AiWorkflow from "./components/AiWorkflow";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <Project />
       <Design />
+      <AiWorkflow/>
       <Contact />
     </div>
   );

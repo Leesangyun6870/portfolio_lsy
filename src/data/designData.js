@@ -2,7 +2,7 @@
 const designData = [
   {
     id: "design-01",
-    img: "/images/minari.png",
+    img: "/images/Design_img/minari.png",
     thumbnailColor: "#f4ede0",
     badge: "초록마을",
     title: "무농약이상 미나리 (300g)",
@@ -24,7 +24,7 @@ const designData = [
   },
   {
     id: "design-02",
-    img: "/images/samchuly.png",
+    img: "/images/Design_lmg/samchuly.png",
     thumbnailColor: "#76886f",
     badge: null,
     title: "삼천리 자전거 브랜딩",
@@ -46,7 +46,7 @@ const designData = [
   },
   {
     id: "design-03",
-    img: "/images/mint.PNG",
+    img: "/images/Design_img/mint.png",
     thumbnailColor: "#76886f",
     badge: null,
     title: "페퍼민트 랜딩페이지",
@@ -68,7 +68,7 @@ const designData = [
   },
   {
     id: "design-04",
-    img: "/images/bookpid.png",
+    img: "/images/Design_img/bookpid.png",
     thumbnailColor: "#76886f",
     badge: null,
     title: "책 pid 디자인",
@@ -90,7 +90,7 @@ const designData = [
   },
   {
     id: "design-05",
-    img: "/images/wellage.png",
+    img: "/images/Design_img/wellage.png",
     thumbnailColor: "#76886f",
     badge: null,
     title: "화장품 sns 피드",
@@ -112,7 +112,7 @@ const designData = [
   },
   {
     id: "design-05",
-    img: "/images/Shopping.png",
+    img: "/images/Design_img/Shopping.png",
     thumbnailColor: "#76886f",
     badge: null,
     title: "shopping 앱디자인",
@@ -132,9 +132,9 @@ const designData = [
       ],
     },
   },
-{
-    id: "design-08",
-    img: "/images/cafe24.png",
+  {
+    id: "design-06",
+    img: "/images/Design_img/cafe24.png",
     thumbnailColor: "#76886f",
     badge: null,
     title: "카페24 쇼핑몰",

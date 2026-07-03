@@ -1,7 +1,6 @@
 .about {
   width: 100%;
-  height: 100vh;
-  min-height: 100vh;
+  /* height: 100vh; */
   padding: 100px;
   background: white;
   display: flex;
@@ -124,13 +123,15 @@
 .tool-icons {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 35px;
-  column-gap: 30px;
+  row-gap: 10px;
+  justify-content: space-between;
+  /* column-gap: 30px; */
 }
 
 .tool-icon {
-  width: 34px;
-  height: 34px;
+ 
+  /* width: 34px;
+  height: 34px; */
   border-radius: 8px;
   /* background: #2f4538; */
   color: #fff;

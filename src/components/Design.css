@@ -22,6 +22,7 @@
 }
 
 .design-card {
+  width: 100%;
   background: #fff;
   border-radius: 14px;
   /* overflow: hidden; */
@@ -39,14 +40,14 @@
 }
 
 .design-card__thumb {
-  /* height: 170px; */
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgba(255, 255, 255, 0.85);
   font-size: 13px;
   text-align: center;
-  /* padding: 12px; */
+  overflow: hidden;
 }
 .design-card__thumb img {
   width: 100%;

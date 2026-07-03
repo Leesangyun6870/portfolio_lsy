@@ -1,0 +1,64 @@
+.ai-workflow {
+  padding: 120px 8%;
+}
+
+.ai-workflow h2 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.sub {
+  text-align: center;
+  color: #666;
+  margin-bottom: 60px;
+}
+
+.workflow-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.workflow-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.workflow-card:hover {
+  transform: translateY(-10px);
+}
+
+.workflow-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 24px;
+}
+
+.content span {
+  font-size: 32px;
+}
+
+.content h3 {
+  margin: 12px 0;
+}
+
+.content small {
+  color: #888;
+}
+
+.content ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.content li {
+  margin-bottom: 10px;
+}

@@ -18,6 +18,7 @@
 }
 
 .card {
+  width: 100%;
   background: #fff;
   border: 1px solid #e6e9e3;
   border-radius: 14px;
@@ -41,10 +42,11 @@
   justify-content: center;
   color: #6f7c70;
   font-size: 14px;
-  padding: 16px;
+  /* padding: 16px; */
   text-align: center;
+  overflow: hidden;
 }
-.card__thumb img{
+.card__thumb img {
   width: 100%;
   display: block;
   object-fit: cover;
@@ -71,9 +73,9 @@
   display: flex;
   gap: 6px;
 }
- .card__tag-icon{
+.card__tag-icon {
   width: 24px;
- }
+}
 .card__tag-dot {
   width: 18px;
   height: 18px;
