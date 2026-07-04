@@ -3,16 +3,16 @@ const projectData = [
   {
     id: "proj-01",
     img: "/images/Project_img/shem_banner.png",
-    thumbnailColor: "#fbf6ee",
-    badge: "shem 프로젝트",
-    title: "당신의 마음에 주님께서 함께하십니다",
-    subtitle: "지금 잠깐의 여유가 있으신가요?",
-    category: "기획 · 디자인 · 코딩 2026",
+    thumbnailColor: "#fff",
+    badge: "SHEM 웹페이지 제작.",
+    title: "SHEM 웹페이지 제작.",
+    subtitle: "null",
+    category: "기획, 디자인, 코딩",
     name: "shem 프로젝트",
-    tools: ["Figma", "Notion", "Github", "Code"],
+    tools: ["Figma", "Claude", "Code", "Illustrator"],
     detail: {
       summary:
-        "신앙 콘텐츠를 짧은 카드 형태로 큐레이션하는 모바일 웹 서비스입니다. 사용자가 하루 중 짧은 틈에도 부담 없이 말씀과 묵상을 접할 수 있도록, 카드 한 장을 넘기는 행위에 집중한 인터랙션을 설계했습니다.",
+        "",
       role: "기획, UI/UX 디자인, 퍼블리싱",
       period: "2026.01 - 2026.02",
       stack: ["Figma", "HTML/CSS", "JavaScript"],

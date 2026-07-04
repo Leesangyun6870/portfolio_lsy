@@ -36,6 +36,7 @@
 }
 
 .card__thumb {
+  position: relative;
   height: 140px;
   display: flex;
   align-items: center;
@@ -47,6 +48,9 @@
   overflow: hidden;
 }
 .card__thumb img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   display: block;
   object-fit: cover;
