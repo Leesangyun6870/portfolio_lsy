@@ -124,12 +124,11 @@
   display: flex;
   flex-wrap: wrap;
   row-gap: 10px;
-  justify-content: space-between;
+  justify-content: flex-start;
   /* column-gap: 30px; */
 }
 
 .tool-icon {
- 
   /* width: 34px;
   height: 34px; */
   border-radius: 8px;
