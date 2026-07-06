@@ -21,7 +21,6 @@ function Project() {
         className="card-grid"
         spaceBetween={30}
         slidesPerView={3}
-        slidesPerGroup={3}
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
         }}
@@ -33,15 +32,12 @@ function Project() {
         breakpoints={{
           320: {
             slidesPerView: 1,
-            slidesPerGroup: 1,
           },
           768: {
             slidesPerView: 2,
-            slidesPerGroup: 2,
           },
           1200: {
             slidesPerView: 3,
-            slidesPerGroup: 3,
           },
         }}
       >
@@ -77,14 +73,9 @@ function Project() {
       </Swiper>
 
       <div className="project__footer">
-        <button className="project__more">⟷ 더보기</button>
+        <button className="project__more"></button>
 
         <div className="project__pager">
-          <span className="project__page-count">
-            {String(page).padStart(2, "0")} /{" "}
-            {String(Math.ceil(projectData.length / 3)).padStart(2, "0")}
-          </span>
-
           <button
             className="project__pager-btn"
             onClick={() => swiperRef.current?.slidePrev()}

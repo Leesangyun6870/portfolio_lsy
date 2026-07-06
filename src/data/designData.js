@@ -137,7 +137,7 @@ const designData = [
     title: "브랜딩 로고 디자인",
     category: "리서치, 기획, 디자인",
     name: "브랜딩 로고 디자인",
-    tools: ["Notion", "Figma", "Photoshop", "Illustrator, ChatGPT"],
+    tools: ["Notion", "Figma", "Photoshop", "Illustrator", "ChatGPT"],
     detail: {
       summary:
         "국내 삼천리 자전거 브랜드에 전기 모빌리티 기술을 접목한 브랜드 리디자인.",

@@ -22,7 +22,6 @@ function Design() {
           className="design-grid"
           spaceBetween={30}
           slidesPerView={3}
-          slidesPerGroup={3}
           onSwiper={(swiper) => {
             swiperRef.current = swiper;
           }}
@@ -78,14 +77,9 @@ function Design() {
         </Swiper>
 
         <div className="design__footer">
-          <button className="design__more">⟷ 더보기</button>
+          <button className="design__more"></button>
 
           <div className="design__pager">
-            <span className="design__page-count">
-              {String(page).padStart(2, "0")} /{" "}
-              {String(Math.ceil(designData.length / 3)).padStart(2, "0")}
-            </span>
-
             <button
               className="design__pager-btn"
               onClick={() => swiperRef.current?.slidePrev()}
