@@ -58,8 +58,8 @@ const designData = [
     tools: ["Notion", "Figma", "ChatGPT", "Gemini"],
     detail: {
       summary:
-        "가민 브랜드의 카테고리 중 최근 다방면 건강 스포츠로 입증된 러닝, 한가지의 용품을 집중 판매하는 쇼핑몰",
-      role: "전체 쇼핑몰 페이지 디자인입니다.",
+        "가민 브랜드의 카테고리 중 최근 다방면 건강 스포츠로 입증된 러닝, 한가지의 용품을 집중 판매하는 쇼핑몰입니다.",
+      role: "전체 쇼핑몰 페이지 디자인.",
       period: "7일 소요",
       stack: ["Notion", "Figma", "ChatGPT", "Gemini"],
       points: [

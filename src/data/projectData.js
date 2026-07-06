@@ -78,7 +78,7 @@ const projectData = [
     tools: ["Notion", "Figma", "ChatGPT", "Github", "HTML", "CSS"],
     detail: {
       summary: "키호스크가 어려운 노인을 위한 메뉴판입니다.",
-      role: "기획, 프로토타이핑",
+      role: "기획, 디자인, 퍼블리싱",
       period: "3일 소요",
       stack: ["Figma", "ChatGPT", "Github", "HTML", "CSS"],
       points: [
