@@ -18,7 +18,7 @@ function Contact() {
             <span className="contact__value">retkddbs0519@naver.com</span>
           </div>
           <div className="contact__line">
-            <span className="contact__label">전화</span>
+            <span className="contact__label">휴대전화</span>
             <span className="contact__value">010-8357-6870</span>
           </div>
         </div>
