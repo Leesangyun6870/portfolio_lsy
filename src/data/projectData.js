@@ -21,7 +21,7 @@ const projectData = [
     ],
     detail: {
       summary:
-        "마음이 지친 사람들에게 회복의 도움을 줄 수 있는 기독교 구성으로 설계된 웹페이지.",
+        "마음이 지친 사람들에게 회복의 도움을 줄 수 있는 기독교 구성으로 설계된 웹페이지입니다.",
       role: "전체 작품 디자인 및 퍼블리싱",
       period: "약 3주~한달 소요",
       stack: [
@@ -53,8 +53,8 @@ const projectData = [
     name: "한국장학제단 홈페이지 리디자인.",
     tools: ["Notion", "Figma", "ChatGPT", "Github", "HTML", "CSS", "JS"],
     detail: {
-      summary: "사용자 리서치를 바탕으로 한 정보구조 재설계 프로젝트입니다.",
-      period: "팀 단위: 2026.06 - 2026.06 개인: 1달 소요",
+      summary: "사용자 리서치를 바탕으로 정보구조를 재설계한 프로젝트입니다.",
+      period: "팀 단위: 2026.06 - 2026.06 / 개인: 1달 소요",
       stack: ["Notion", "Figma", "ChatGPT", "Github", "HTML", "CSS", "JS"],
       points: [
         "신청 일정, 공지 사항, 보도자료, 제단 소개 섹션의 피그마 레퍼런스 디자인하였습니다. ",
@@ -73,13 +73,13 @@ const projectData = [
     name: "레스토랑 노인전용 메뉴판 프로젝트.",
     tools: ["Notion", "Figma", "ChatGPT", "Github", "HTML", "CSS"],
     detail: {
-      summary: "키호스크가 어려운 노인을 위한 메뉴판.",
+      summary: "키호스크가 어려운 노인을 위한 메뉴판입니다.",
       role: "기획, 프로토타이핑",
       period: "3일 소요",
       stack: ["Figma", "ChatGPT", "Github", "HTML", "CSS"],
       points: [
-        "친근한 느낌의 가상의 웨이터 이미지 제작.",
-        "레스토랑 대표메뉴 3가지 카드구성, 한페이지로 가능한 메뉴판.",
+        "친근한 느낌의 가상의 웨이터 이미지 제작하였습니다.",
+        "레스토랑 대표메뉴 3가지 카드구성, 한페이지로 주문 가능한 메뉴판입니다.",
       ],
     },
   },
@@ -100,8 +100,8 @@ const projectData = [
       period: "수업 커리큘럼에 맞춤.",
       stack: ["Notion", "ChatGPT", "Github", "HTML", "CSS"],
       points: [
-        "개발자도구(F12)를 이용한 코딩 분석.",
-        "레이아웃 배치 코딩 학습.",
+        "개발자도구(F12)를 이용하여 코딩을 분석했습니다.",
+        "레이아웃 배치하는 코딩방법 학습했습니다.",
       ],
     },
   },
@@ -121,8 +121,8 @@ const projectData = [
       period: "수업 커리큘럼에 맞춤.",
       stack: ["Notion", "ChatGPT", "Github", "HTML", "CSS"],
       points: [
-        "개발자도구(F12)를 이용한 코딩 분석.",
-        "히어로 섹션 슬라이드 기능 학습.",
+        "개발자도구(F12)를 이용하여 코딩을 분석했습니다.",
+        "히어로 섹션 슬라이드 기능 학습했습니다.",
       ],
     },
   },
@@ -141,7 +141,10 @@ const projectData = [
       role: "학습.",
       period: "수업 커리큘럼에 맞춤.",
       stack: ["Notion", "ChatGPT", "Github", "HTML", "CSS"],
-      points: ["개발자도구(F12)를 이용한 코딩 분석.", "CSS 기능 학습."],
+      points: [
+        "개발자도구(F12)를 이용하여 코딩을 분석했습니다.",
+        "CSS 기능을 학습했습니다.",
+      ],
     },
   },
   {
@@ -161,7 +164,7 @@ const projectData = [
       stack: ["Notion", "ChatGPT", "Github", "HTML", "CSS"],
       points: [
         "와이어프레임을 UL,li 이용하여 설계하였습니다.",
-        "CSS 기능 학습",
+        "CSS 기능을 학습했습니다.",
       ],
     },
   },

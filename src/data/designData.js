@@ -11,7 +11,7 @@ const designData = [
     tools: ["Notion", "Figma", "Photoshop"],
     detail: {
       summary:
-        "초록마을 판매 사이트 내, 판매율이 가장높은 미나리를 소개하는 페이지입니다. 기존의 페이지에서 신뢰성을 추가한 내용 구성을 추가하였습니다.",
+        "초록마을 판매 사이트 내, 판매율이 가장높은 미나리를 소개하는 페이지입니다.",
       role: "전체 상세페이지 디자인.",
       period: "7~10일 소요",
       stack: ["Notion", "Figma", "Photoshop"],
@@ -34,12 +34,12 @@ const designData = [
     tools: ["Notion", "Figma", "Photoshop"],
     detail: {
       summary:
-        "페퍼민트 성분의 사탕을 섭취가 필요한 사람들에게 정보전달을 하고 구매를 돕기 위한 페이지디자인.",
+        "페퍼민트 성분의 사탕의 정보전달을 하고 구매를 돕기 위한 페이지 디자인입니다.",
       role: "전체 랜딩페이지 디자인",
       period: "7~10일 소요",
       stack: ["Notion", "Figma", "Photoshop"],
       points: [
-        "Refresh라는 키워드를 정하여 감정전달을 위한 스타일 시스템을 구성했습니다.",
+        "Refresh 키워드를 정하여 감성전달을 위한 스타일 시스템을 구성했습니다.",
         "페퍼민트가 필요한 상황을 제시한 Section을 구성하였습니다.",
       ],
     },
@@ -55,8 +55,8 @@ const designData = [
     tools: ["Notion", "Figma", "ChatGPT", "Gemini"],
     detail: {
       summary:
-        "가민 브랜드의 카테고리 중 최근 과학적으로 건강 스포츠로 입증된 러닝 한가지의 용품을 판매하는 쇼핑몰",
-      role: "전체 쇼핑몰 페이지 디자인.",
+        "가민 브랜드의 카테고리 중 최근 다방면 건강 스포츠로 입증된 러닝, 한가지의 용품을 집중 판매하는 쇼핑몰",
+      role: "전체 쇼핑몰 페이지 디자인입니다.",
       period: "7일 소요",
       stack: ["Notion", "Figma", "ChatGPT", "Gemini"],
       points: [
@@ -77,12 +77,12 @@ const designData = [
     tools: ["Notion", "Figma", "Photoshop", "Illustrator"],
     detail: {
       summary:
-        "기독교 서적 '마침내 이음'을 읽고 따뜻함과 캄보디아 선교의 응원의 메세지를 담은 디자인제작.",
+        "기독교 서적 '마침내 이음'을 읽고 따뜻함과 캄보디아 선교의 응원의 메세지를 담은 디자인 제작입니다.",
       role: "전체 작품 디자인.",
       period: "7일~10일 소요.",
       stack: ["Notion", "Figma", "Photoshop", "Illustrator"],
       points: [
-        "따뜻함을 전달하는 스타일 시스템을 구성하였습니다.",
+        "따뜻함 감성을 전달하는 스타일 시스템을 구성하였습니다.",
         "캄보디아의 문화제와 노을 진 하늘을 연결하는 중간 텍스트와 마스킹을 하였습니다.",
       ],
     },
@@ -98,7 +98,7 @@ const designData = [
     tools: ["Notion", "Figma", "Photoshop"],
     detail: {
       summary:
-        "Wellage의 인기 제품 중 수분 부족 피부를 위한 수분보충 에센스 제품을 홍보한 피드를 제작하였습니다.",
+        "Wellage의 인기 제품 중 수분 부족 피부를 위한 에센스 제품을 홍보한 피드를 제작하였습니다.",
       role: "전체 작품 디자인.",
       period: "1일 소요",
       stack: ["Notion", "Figma", "Photoshop"],
@@ -140,7 +140,7 @@ const designData = [
     tools: ["Notion", "Figma", "Photoshop", "Illustrator", "ChatGPT"],
     detail: {
       summary:
-        "국내 삼천리 자전거 브랜드에 전기 모빌리티 기술을 접목한 브랜드 리디자인.",
+        "국내 삼천리 자전거 브랜드에 전기 모빌리티 기술을 접목한 브랜드 리디자인했습니다.",
       role: "전체 작품 디자인.",
       period: "2주 소요",
       stack: ["Notion", "Figma", "Photoshop", "Illustrator", "ChatGPT"],
