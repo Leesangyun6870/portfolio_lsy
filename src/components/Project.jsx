@@ -52,7 +52,10 @@ function Project() {
               </div>
 
               <div className="card__body">
-                <div className="card__category">{item.category}</div>
+                <div className="card__category">
+                  <strong>{item.cate}</strong>
+                  {item.category}
+                </div>
 
                 <div className="card__name">{item.name}</div>
 

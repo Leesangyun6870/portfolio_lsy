@@ -56,7 +56,10 @@ function Design() {
                 </div>
 
                 <div className="design-card__body">
-                  <div className="design-card__category">{item.category}</div>
+                  <div className="design-card__category">
+                    <strong>{item.cate}</strong>
+                    {item.category}
+                  </div>
 
                   <div className="design-card__name">{item.name}</div>
 

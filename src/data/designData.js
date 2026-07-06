@@ -6,7 +6,8 @@ const designData = [
     thumbnailColor: "#fff",
     badge: "초록마을",
     title: "무농약이상 미나리. (300g)",
-    category: "리서치, 기획, 디자인",
+    cate: "개인 디자인 ",
+    category: "(리서치, 기획, 디자인)",
     name: "초록마을 미나리 상세페이지.",
     tools: ["Notion", "Figma", "Photoshop"],
     detail: {
@@ -29,7 +30,8 @@ const designData = [
     thumbnailColor: "#fff",
     badge: null,
     title: "페퍼민트 사탕 랜딩페이지.",
-    category: "리서치, 기획, 디자인",
+    cate: "개인 디자인 ",
+    category: "(리서치, 기획, 디자인)",
     name: "페퍼민트 사탕 랜딩페이지.",
     tools: ["Notion", "Figma", "Photoshop"],
     detail: {
@@ -50,7 +52,8 @@ const designData = [
     thumbnailColor: "#fff",
     badge: null,
     title: "카페24 러닝 쇼핑몰.",
-    category: "리서치, 기획, 디자인",
+    cate: "개인 디자인 ",
+    category: "(리서치, 기획, 디자인)",
     name: "카페24 러닝 쇼핑몰.",
     tools: ["Notion", "Figma", "ChatGPT", "Gemini"],
     detail: {
@@ -72,7 +75,8 @@ const designData = [
     thumbnailColor: "#fff",
     badge: null,
     title: "도서 홍보물 디자인.",
-    category: "리서치, 기획, 디자인.",
+    cate: "개인 디자인 ",
+    category: "(리서치, 기획, 디자인)",
     name: "도서 홍보물 디자인.",
     tools: ["Notion", "Figma", "Photoshop", "Illustrator"],
     detail: {
@@ -93,7 +97,8 @@ const designData = [
     thumbnailColor: "#fff",
     badge: null,
     title: "화장품 SNS 피드.",
-    category: "리서치, 디자인",
+    cate: "개인 디자인 ",
+    category: "(리서치, 디자인)",
     name: "화장품 SNS 피드.",
     tools: ["Notion", "Figma", "Photoshop"],
     detail: {
@@ -114,7 +119,8 @@ const designData = [
     thumbnailColor: "#fff",
     badge: null,
     title: "쇼핑 앱디자인.",
-    category: "리서치, 디자인",
+    cate: "개인 디자인 ",
+    category: "(리서치, 디자인)",
     name: "쇼핑 앱디자인.",
     tools: ["Notion", "Figma", "ChatGPT"],
     detail: {
@@ -135,7 +141,8 @@ const designData = [
     thumbnailColor: "#fff",
     badge: null,
     title: "브랜딩 로고 디자인",
-    category: "리서치, 기획, 디자인",
+    cate: "개인 디자인 ",
+    category: "(리서치, 기획, 디자인)",
     name: "브랜딩 로고 디자인",
     tools: ["Notion", "Figma", "Photoshop", "Illustrator", "ChatGPT"],
     detail: {

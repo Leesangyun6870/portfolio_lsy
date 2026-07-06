@@ -7,7 +7,8 @@ const projectData = [
     badge: "SHEM 웹페이지 제작.",
     title: "SHEM (마음이 지친 사람들을 돕기 위한 웹페이지.)",
     subtitle: "null",
-    category: "개인 프로젝트 (리서치, 기획, 디자인, 퍼블리싱)",
+    cate: "개인 프로젝트 ",
+    category: "(리서치, 기획, 디자인, 퍼블리싱)",
     name: "'SHEM' (마음이 지친 사람들을 돕기 위한 웹페이지.)",
     tools: [
       "Notion",
@@ -49,7 +50,8 @@ const projectData = [
     badge: null,
     title: "한국장학제단 (홈페이지 리디자인.)",
     subtitle: null,
-    category: "3인 1조 팀 프로젝트 (리서치, 기획, 디자인, 퍼블리싱)",
+    cate: "3인 1조 팀 프로젝트 ",
+    category: "(리서치, 기획, 디자인, 퍼블리싱)",
     name: "한국장학제단 (홈페이지 리디자인.)",
     tools: ["Notion", "Figma", "ChatGPT", "Github", "HTML", "CSS", "JS"],
     detail: {
@@ -70,7 +72,8 @@ const projectData = [
     badge: null,
     title: "'Eagy Restaurant' (노인전용 메뉴판.)",
     subtitle: null,
-    category: "개인 프로젝트 (리서치, 기획, 디자인, 퍼블리싱)",
+    cate: "개인 프로젝트 ",
+    category: "(리서치, 기획, 디자인, 퍼블리싱)",
     name: "'Eagy Restaurant' (노인전용 메뉴판.)",
     tools: ["Notion", "Figma", "ChatGPT", "Github", "HTML", "CSS"],
     detail: {
@@ -92,7 +95,7 @@ const projectData = [
     badge: null,
     title: "Google 홈페이지 클론코딩 학습.",
     subtitle: null,
-    category: "Clone Coding",
+    cate: "Clone Coding",
     name: "Google 홈페이지 클론코딩 학습.",
     tools: ["Notion", "ChatGPT", "Github", "HTML", "CSS"],
     detail: {
@@ -113,7 +116,7 @@ const projectData = [
     badge: null,
     title: "STX 홈페이지 클론코딩 학습.",
     subtitle: null,
-    category: "Clone Coding",
+    cate: "Clone Coding",
     name: "STX 홈페이지 클론코딩 학습.",
     tools: ["Notion", "ChatGPT", "Github", "HTML", "CSS"],
     detail: {
@@ -134,7 +137,7 @@ const projectData = [
     badge: null,
     title: "도시락통 홈페이지 클론코딩 학습.",
     subtitle: null,
-    category: "Clone Coding",
+    cate: "Clone Coding",
     name: "도시락통 홈페이지 클론코딩 학습.",
     tools: ["Notion", "ChatGPT", "Github", "HTML", "CSS"],
     detail: {
@@ -155,7 +158,7 @@ const projectData = [
     badge: null,
     title: "Open.ads 홈페이지 클론코딩.",
     subtitle: null,
-    category: "Clone Coding",
+    cate: "Clone Coding",
     name: "Open.ads 홈페이지 클론코딩.",
     tools: ["Notion", "ChatGPT", "Github", "HTML", "CSS"],
     detail: {
