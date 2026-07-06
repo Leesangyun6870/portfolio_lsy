@@ -70,11 +70,11 @@ const projectData = [
     img: "/images/Project_img/Shef.PNG",
     thumbnailColor: "#fff",
     badge: null,
-    title: "'Eagy Restaurant' (노인전용 메뉴판.)",
+    title: "'Easy Restaurant' (노인전용 메뉴판.)",
     subtitle: null,
     cate: "개인 프로젝트 ",
     category: "(리서치, 기획, 디자인, 퍼블리싱)",
-    name: "'Eagy Restaurant' (노인전용 메뉴판.)",
+    name: "'Easy Restaurant' (노인전용 메뉴판.)",
     tools: ["Notion", "Figma", "ChatGPT", "Github", "HTML", "CSS"],
     detail: {
       summary: "키호스크가 어려운 노인을 위한 메뉴판입니다.",
