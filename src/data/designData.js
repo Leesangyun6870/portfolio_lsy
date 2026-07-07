@@ -49,6 +49,7 @@ const designData = [
   {
     id: "design-03",
     img: "/images/Design_img/cafe24.png",
+    url: "https://retkddbs0519.cafe24.com/",
     thumbnailColor: "#fff",
     badge: null,
     title: "카페24 러닝 쇼핑몰.",

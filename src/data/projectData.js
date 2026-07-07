@@ -3,6 +3,7 @@ const projectData = [
   {
     id: "proj-01",
     img: "/images/Project_img/shem_banner.png",
+    url: "https://shem-five.vercel.app/",
     thumbnailColor: "#fff",
     badge: "SHEM 웹페이지 제작.",
     title: "SHEM (마음이 지친 사람들을 돕기 위한 웹페이지.)",
@@ -46,6 +47,7 @@ const projectData = [
   {
     id: "proj-02",
     img: "/images/Project_img/kosafmypage.png",
+    url: "https://kosaf-theta.vercel.app/",
     thumbnailColor: "#fff",
     badge: null,
     title: "한국장학제단 (홈페이지 리디자인.)",
@@ -68,6 +70,7 @@ const projectData = [
   {
     id: "proj-03",
     img: "/images/Project_img/Shef.PNG",
+    url: "https://restaurant-eta-sepia.vercel.app",
     thumbnailColor: "#fff",
     badge: null,
     title: "'Easy Restaurant' (노인전용 메뉴판.)",
@@ -91,6 +94,7 @@ const projectData = [
   {
     id: "proj-04",
     img: "/images/Project_img/Google.png",
+    url: "https://google-clone1-lovat.vercel.app",
     thumbnailColor: "#fff",
     badge: null,
     title: "Google 홈페이지 클론코딩 학습.",
@@ -112,6 +116,7 @@ const projectData = [
   {
     id: "proj-05",
     img: "/images/Project_img/STX.png",
+    url: "https://stx-clone-brown.vercel.app",
     thumbnailColor: "#fff",
     badge: null,
     title: "STX 홈페이지 클론코딩 학습.",
@@ -133,6 +138,7 @@ const projectData = [
   {
     id: "proj-06",
     img: "/images/Project_img/Tong.png",
+    url: "https://dosiracktong-clone.vercel.app",
     thumbnailColor: "#fff",
     badge: null,
     title: "도시락통 홈페이지 클론코딩 학습.",
@@ -154,6 +160,7 @@ const projectData = [
   {
     id: "proj-07",
     img: "/images/Project_img/ADS.png",
+    url: "https://openads-clone-coding.vercel.app/",
     thumbnailColor: "#fff",
     badge: null,
     title: "Open.ads 홈페이지 클론코딩.",

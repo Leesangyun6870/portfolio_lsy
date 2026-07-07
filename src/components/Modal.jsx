@@ -44,16 +44,17 @@ function Modal({ item, onClose }) {
         >
           ✕
         </button>
-
         <div className="modal-card__thumb">
           <img src={item.img} alt={item.title} />
         </div>
-
         <div className="modal-card__category">{item.category}</div>
-        <h3 className="modal-card__title">{item.title}</h3>
-
+        <h3 className="modal-card__title">{item.title}</h3>{" "}
+        {item.url ? (
+          <a href={item.url} target="_blank" rel="noopener noreferrer">
+            사이트 주소
+          </a>
+        ) : null}
         <p className="modal-card__summary">{item.detail.summary}</p>
-
         <dl className="modal-card__meta">
           <dt>역할</dt>
           <dd>{item.detail.role}</dd>
@@ -64,13 +65,11 @@ function Modal({ item, onClose }) {
           <dt>스택</dt>
           <dd>{item.detail.stack.join(", ")}</dd>
         </dl>
-
         <ul className="modal-card__points">
           {item.detail.points.map((point) => (
             <li key={point}>{point}</li>
           ))}
         </ul>
-
         <div className="modal-card__tags">
           {item.tools.map((tool) => (
             <span key={tool} className="modal-card__tag">
